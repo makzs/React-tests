@@ -1,15 +1,13 @@
-import Header from './Header'
-import Footer from './Footer'
-import Food from './Food'
+import Student from "./Student";
 
 function App() {
   
 
   return(
     <>
-      <Header></Header>
-      <Footer></Footer>
-      <Food></Food>
+      <Student name="BobEsponja" age={"30"} isStudent={true}/>
+      <Student name="PatrickEstrela" age={42} isStudent={false}/>
+      <Student></Student>
     </>
   );
 
